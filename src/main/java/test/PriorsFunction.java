@@ -12,7 +12,7 @@ public class PriorsFunction {
         for (int i = 0; i < request.getContesto().length ; i++) {
             contesto.add("C_"+request.getContesto()[i]);
         }
-        System.out.println(contesto);
+        //System.out.println(contesto);
         switch (request.getPriors()){
             case "standard": return getPriorsFunctionDefault1(contesto);
             case "standardContesto": return getPriorsFunctionDefault2(contesto);

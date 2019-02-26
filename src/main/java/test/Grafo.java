@@ -89,6 +89,7 @@ public class Grafo {
         HashMap<String, Double> score_map  = new HashMap();
         PageRankWithPriors ranker;
 
+
         //Scelgo l'algoritmo richiesto
 
         if(debug) System.out.println("dentro");
@@ -96,6 +97,7 @@ public class Grafo {
         else ranker = new PageRank(graph, request.getAlpha());
 
         //calcola PageRank
+        ranker.setMaxIterations(request.getMax_iterations());
         ranker.evaluate();
 
         //salvo risultato solo per i Luoghi

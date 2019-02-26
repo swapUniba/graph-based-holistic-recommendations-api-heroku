@@ -13,6 +13,7 @@ public class Request {
     private boolean full_connected=false;
     private boolean diretto=false;
     private Double alpha=0.3;
+    private int max_iterations=100;
     private String alg="PageRankPriors";
     private Function f;
     private String priors="standard";
@@ -24,6 +25,14 @@ public class Request {
 
     public String getPriors() {
         return priors;
+    }
+
+    public int getMax_iterations() {
+        return max_iterations;
+    }
+
+    public void setMax_iterations(int max_iterations) {
+        this.max_iterations = max_iterations;
     }
 
     public void setPriors(String priors) {
