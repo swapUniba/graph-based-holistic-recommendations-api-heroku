@@ -1,0 +1,536 @@
+POST http://graph-recommender.herokuapp.com/recommendation/post/
+Accept: application/json
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T015121.500.html
+
+###
+
+POST http://graph-recommender.herokuapp.com/recommendation/post/
+Accept: application/json
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T014046.500.html
+
+###
+
+POST http://graph-recommender.herokuapp.com/recommendation/post/
+Accept: application/json
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T013829.500.html
+
+###
+
+POST http://graph-recommender.herokuapp.com/recommendation/post/
+Accept: application/json
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T043828.500.html
+
+###
+
+POST http://graph-recommender.herokuapp.com/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T043812.500.html
+
+###
+
+GET http://graph-recommender.herokuapp.com/recommendation/ping/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+###
+
+GET http://graph-recommender.herokuapp.com/recommendation/ping/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-02-26T043750.200.json
+
+###
+
+GET http://graph-recommender.herokuapp.com/recommendation/ping/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+###
+
+GET http://graph-recommender.herokuapp.com/recommendation/get/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+###
+
+POST http://graph-recommender.herokuapp.com/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T043654.500.html
+
+###
+
+POST http://graph-recommender.herokuapp.com/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T043005.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T023918.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T023806.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T023718.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
+<> 2019-02-26T023651.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standardContestoCategorie", "top_rank": 10}
+
+<> 2019-02-26T023637.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standardContestoCategorie", "top_rank": 10}
+
+<> 2019-02-26T023614.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standardContestoCategorie", "top_rank": 10}
+
+<> 2019-02-26T023131.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standardContestoCategorie", "top_rank": 10}
+
+<> 2019-02-26T022502.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standardContestoCategorie", "top_rank": 5}
+
+<> 2019-02-26T022405.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standardContestoCategorie"}
+
+<> 2019-02-26T022345.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standardCategorie"}
+
+<> 2019-02-26T022334.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standarContesto"}
+
+<> 2019-02-26T022318.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standardContesto"}
+
+<> 2019-02-26T022304.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRankPriors", "priors": "standard"}
+
+<> 2019-02-26T022248.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"],"alg": "PageRank"}
+
+<> 2019-02-26T014604.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-26T012316.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-26T125732.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-26T121644.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-26T121559.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-26T121453.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-26T121349.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T112454.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T110602.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T110512.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T095416.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T095009.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T093725.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T090927.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T090609.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T090543.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T090347.200.json
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T090307.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T090049.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T090021.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T085856.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T085805.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T085727.500.html
+
+###
+
+POST http://localhost:8080/myapp/recommendation/post/
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
+
+<> 2019-02-25T085624.500.html
+
+###
+
