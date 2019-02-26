@@ -37,7 +37,11 @@ public class FromFile {
 		System.out.println(Paths.get(".").toAbsolutePath().normalize().toString());
 		System.out.println(Paths.get(".").toUri());
 		File[] lista = new File(".").listFiles();
-		System.out.println(lista);
+		for (File f: lista
+			 ) {
+			System.out.println(f.getAbsolutePath());
+		}
+
 		if(new File(GetPath("businesses_"+data+".csv")).exists()) System.out.println("SI");
 		else System.out.println("NO");
 		File file = new File(GetPath("businesses_"+data+".csv"));
