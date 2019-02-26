@@ -1,0 +1,13 @@
+{
+	"user": "Marco",
+	"history": {
+		"cena":["Pub","Ristorante"],
+		"amici":["Gastropub","Birreria"],
+		"buon_umore": ["Cucina italiana","Musei"]
+	},
+	"contesto": ["weekend","amici","cena","buon_umore"],
+	"top_rank": 5,
+	"diretto": "true",
+	"alpha": 0.4,
+	"priors": "standardCategorie"
+}
