@@ -35,9 +35,14 @@ public class FromFile {
 	{
 		System.out.println(GetPath("businesses_"+data+".csv"));
 		System.out.println(Paths.get(".").toAbsolutePath().normalize().toString());
+		System.out.println(Paths.get(".").toUri());
+		File[] lista = new File(".").listFiles();
+		System.out.println(lista);
+		if(new File(GetPath("businesses_"+data+".csv")).exists()) System.out.println("SI");
+		else System.out.println("NO");
 		File file = new File(GetPath("businesses_"+data+".csv"));
 
-		if(file ==null) System.out.println("VUOTO");
+
 
 		BufferedReader br = new BufferedReader(new FileReader(file));
 
