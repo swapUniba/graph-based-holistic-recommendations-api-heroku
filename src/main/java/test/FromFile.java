@@ -20,7 +20,7 @@ import org.json.JSONObject;
 public class FromFile {
 
 	private static String data = "torino";
-	private static String data_folder="/app/data/";
+	private static String data_folder="/app/./data/";
 
 	public static void SetData(String dataset){
 		data=dataset;
