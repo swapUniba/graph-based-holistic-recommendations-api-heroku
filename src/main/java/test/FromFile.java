@@ -20,7 +20,7 @@ import org.json.JSONObject;
 public class FromFile {
 
 	private static String data = "torino";
-	private static String data_folder="/app/./data/";
+	private static String data_folder="/app/data/";
 
 	public static void SetData(String dataset){
 		data=dataset;
@@ -33,20 +33,7 @@ public class FromFile {
 	public static HashMap<String, String[]> getPlacesNew() throws IOException
 
 	{
-		System.out.println(GetPath("businesses_"+data+".csv"));
-		System.out.println(Paths.get(".").toAbsolutePath().normalize().toString());
-		System.out.println(Paths.get(".").toUri());
-		File[] lista = new File("/app/data/").listFiles();
-		for (File f: lista
-			 ) {
-			System.out.println(f.getAbsolutePath());
-		}
-
-		if(new File(GetPath("businesses_"+data+".csv")).exists()) System.out.println("SI");
-		else System.out.println("NO");
-		File file = new File("/app/data/businesses_bari.csv");
-
-
+		File file = new File(GetPath("businesses_"+data+".csv"));
 
 		BufferedReader br = new BufferedReader(new FileReader(file));
 

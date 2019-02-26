@@ -41,9 +41,11 @@ public class Main {
         System.out.println(String.format("Jersey app started with WADL available at "
                 + "%sapplication.wadl", url));
 
+        /*
         while (true) {
 
         }
+        */
         //System.in.read();
         //server.stop();
     }

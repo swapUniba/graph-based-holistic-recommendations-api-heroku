@@ -23,9 +23,7 @@ public class RecommendationResource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response post(Request request) throws IOException {
-        System.out.println("POST");
         Grafo grafo= new Grafo(request);
-        System.out.println("AFTER GRAFO");
         HashMap<String, Double> map = grafo.Pagerank();
         return Response.ok().entity(new Return(map)).build();
     }

@@ -39,7 +39,7 @@ public class Grafo {
 
     public Grafo(Request req) throws IOException {
         //setto livello di debug, si può togliere volendo, salvo richiesta e imposto la città
-        debug=true;
+        //debug=true;
         this.request=req;
         FromFile.SetData(request.getCity());
 

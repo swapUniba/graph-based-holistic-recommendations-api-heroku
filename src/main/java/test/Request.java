@@ -9,7 +9,7 @@ public class Request {
     private Map<String, String[]> history;
     private String user;
     private int top_rank=3;
-    private String city="Bari";
+    private String city="bari";
     private boolean full_connected=false;
     private boolean diretto=false;
     private Double alpha=0.3;
