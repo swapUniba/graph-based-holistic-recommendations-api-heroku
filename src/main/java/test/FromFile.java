@@ -44,7 +44,7 @@ public class FromFile {
 
 		if(new File(GetPath("businesses_"+data+".csv")).exists()) System.out.println("SI");
 		else System.out.println("NO");
-		File file = new File(GetPath("businesses_"+data+".csv"));
+		File file = new File("/app/data/businesses_bari.csv");
 
 
 

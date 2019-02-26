@@ -4,6 +4,16 @@ Content-Type: application/json
 
 {"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
 
+<> 2019-02-26T023636.500.html
+
+###
+
+POST http://graph-recommender.herokuapp.com/recommendation/post/
+Accept: application/json
+Content-Type: application/json
+
+{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"],"buon_umore": ["Cucina italiana","Musei"]},"contesto":["weekend","amici","cena","buon_umore"],"alg": "PageRankPriors", "priors": "standardCategorie", "top_rank": 10}
+
 <> 2019-02-26T023459.500.html
 
 ###
@@ -516,17 +526,6 @@ Content-Type: application/json
 {"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
 
 <> 2019-02-25T090049.500.html
-
-###
-
-POST http://localhost:8080/myapp/recommendation/post/
-Accept: application/json
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"user": "test", "history": {"cena":["Pub","Ristorante"],"amici":["Gastropub","Birreria"]},"contesto":["weekend","amici","cena"]}
-
-<> 2019-02-25T090021.500.html
 
 ###
 
