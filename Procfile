@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* java.test.Main
+web: java -cp target/classes:target/dependency/* test.Main
