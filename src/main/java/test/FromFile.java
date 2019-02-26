@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -32,7 +33,11 @@ public class FromFile {
 	public static HashMap<String, String[]> getPlacesNew() throws IOException
 
 	{
+		System.out.println(GetPath("businesses_"+data+".csv"));
+		System.out.println(Paths.get(".").toAbsolutePath().normalize().toString());
 		File file = new File(GetPath("businesses_"+data+".csv"));
+
+		if(file ==null) System.out.println("VUOTO");
 
 		BufferedReader br = new BufferedReader(new FileReader(file));
 
