@@ -36,7 +36,7 @@ public class FromFile {
 		System.out.println(GetPath("businesses_"+data+".csv"));
 		System.out.println(Paths.get(".").toAbsolutePath().normalize().toString());
 		System.out.println(Paths.get(".").toUri());
-		File[] lista = new File("/app/").listFiles();
+		File[] lista = new File("/app/data/").listFiles();
 		for (File f: lista
 			 ) {
 			System.out.println(f.getAbsolutePath());
