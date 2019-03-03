@@ -23,7 +23,7 @@ public class Grafo {
 
     public Grafo(Request req) throws IOException {
         //debug level, si può attivare in caso ci sia bisogno di risolvere qualche errore
-        debug=true;
+        //debug=true;
         this.request=req;
         FromFile.SetData(request.getCity());
 
