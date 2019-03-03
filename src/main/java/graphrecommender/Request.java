@@ -1,31 +1,44 @@
-package test;
+package graphrecommender;
 
-import com.google.common.base.Function;
-
+import java.util.ArrayList;
 import java.util.Map;
 
 public class Request {
+
+    //variabili con valori di default
     private String[] contesto;
     private Map<String, String[]> history;
     private String user;
     private int top_rank=3;
-    private String city="bari";
+    private String city="Bari";
     private boolean full_connected=false;
     private boolean diretto=false;
     private Double alpha=0.3;
     private int max_iterations=100;
     private String alg="PageRankPriors";
-    private Function f;
-    private String priors="standard";
+    private boolean inverso=true;
+    private double priors_weights[] = new double[] {1d, 0d, 0d, 0d};
+    private ArrayList to_avoid = new ArrayList();
+    private boolean avoid_visited = false;
 
+    //costruttore
+    public Request(){
 
-    public Function getF() {
-        return f;
     }
 
-    public String getPriors() {
-        return priors;
+    //get e set vari, il mapping viene effettuato in automatica dal server
+    public boolean isInverso() {
+        return inverso;
     }
+
+    public ArrayList getTo_avoid() {
+        return to_avoid;
+    }
+
+    public void setTo_avoid(ArrayList to_avoid) {
+        this.to_avoid = to_avoid;
+    }
+
 
     public int getMax_iterations() {
         return max_iterations;
@@ -35,12 +48,24 @@ public class Request {
         this.max_iterations = max_iterations;
     }
 
-    public void setPriors(String priors) {
-        this.priors = priors;
+    public double[] getPriors_weights() {
+        return priors_weights;
     }
 
-    public void setF(Function f) {
-        this.f = f;
+    public boolean isAvoid_visited() {
+        return avoid_visited;
+    }
+
+    public void setAvoid_visited(boolean avoid_visited) {
+        this.avoid_visited = avoid_visited;
+    }
+
+    public void setPriors_weights(double[] priors_weights) {
+        this.priors_weights = priors_weights;
+    }
+
+    public void setInverso(boolean inverso) {
+        this.inverso = inverso;
     }
 
     public String getAlg() {
@@ -57,10 +82,6 @@ public class Request {
 
     public void setAlpha(Double alpha) {
         this.alpha = alpha;
-    }
-
-    public Request(){
-
     }
 
     public String[] getContesto() {
@@ -109,10 +130,6 @@ public class Request {
 
     public void setCity(String city) {
         this.city = city;
-    }
-
-    public void print(){
-        System.out.println(user + history.toString() + contesto.toString());
     }
 
     public boolean isFull_connected() {

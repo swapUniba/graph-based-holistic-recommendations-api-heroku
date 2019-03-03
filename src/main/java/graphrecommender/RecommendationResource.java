@@ -1,14 +1,12 @@
-package test;
+package graphrecommender;
 
 
 
-import javax.management.Notification;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Map;
 
 @Path("/recommendation")
 public class RecommendationResource {

@@ -1,10 +1,11 @@
-package test;
+package graphrecommender;
 
 import java.util.HashMap;
 
 public class Return {
     private HashMap recommendation;
 
+    //anche qua il mapping viene fatto in automatico dal server
     public Return(){
     }
 

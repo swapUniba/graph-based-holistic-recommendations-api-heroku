@@ -9,5 +9,5 @@
 	"top_rank": 5,
 	"diretto": "true",
 	"alpha": 0.4,
-	"priors": "standardCategorie"
+	"priors_weight": [1.0,0.0,0.3,0.5]
 }
