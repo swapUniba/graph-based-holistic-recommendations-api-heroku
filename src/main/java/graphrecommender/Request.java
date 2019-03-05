@@ -19,7 +19,7 @@ public class Request {
     private boolean inverso=true;
     private double priors_weights[] = new double[] {1d, 0d, 0d, 0d};
     private ArrayList to_avoid = new ArrayList();
-    private boolean avoid_visited = false;
+    private boolean avoid_visited = true;
 
     //costruttore
     public Request(){
