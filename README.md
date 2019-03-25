@@ -64,8 +64,7 @@ Add the JUNG library and Jersey framework dependencies in your pom.xml file.
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
         </dependency>
-
-    </dependencies>
+</dependencies>
 ```
 
 ## How it Works
